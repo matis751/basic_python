@@ -1,0 +1,42 @@
+Une variable est une zone de la mémoire de l'ordinateur dans laquelle une valeur est stockée. Aux yeux du programmeur, cette variable est définie par un nom, alors que pour l'ordinateur, il s'agit en fait d'une adresse, c'est-à-dire d'une zone particulière de la mémoire.
+
+
+Les différents types de variables:
+
+Types numériques — int, float, complex
+
+Les types itérateurs
+
+Types générateurs
+
+Types séquentiels — list, tuple, range
+
+Type Séquence de Texte - string
+
+Séquences Binaires
+
+Types d'ensembles - set frozenset
+
+les types de correspondances - dict
+
+
+Les opérateurs :
+
+< strictement inférieur
+> strictement supérieur
+<= inférieur ou égal
+>= supérieur ou égal
+== égal
+!= différent
+<> différent, on utilisera de préférence !=
+X is Y : X et Y représentent le même objet.
+X is not Y : X et Y ne représentent pas le même objet
+X | Y : OU logique.
+X ^ Y : OU exclusif logique
+X & Y : ET logique.
+~ X : NON logique.
+X or Y : OU booléen.
+X and Y : ET booléen.
+not X : NON booléen.
+
+
