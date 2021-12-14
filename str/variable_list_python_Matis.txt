@@ -1,0 +1,85 @@
+Une variable est une zone de la mémoire de l'ordinateur dans laquelle une valeur est stockée. Aux yeux du programmeur, cette variable est définie par un nom, alors que pour l'ordinateur, il s'agit en fait d'une adresse, c'est-à-dire d'une zone particulière de la mémoire.
+
+
+Les différents types de variables:
+
+Types numériques — int, float, complex
+
+Les types itérateurs
+
+Types générateurs
+
+Types séquentiels — list, tuple, range
+
+Type Séquence de Texte - string
+
+Séquences Binaires
+
+Types d'ensembles - set frozenset
+
+les types de correspondances - dict
+
+
+Les opérateurs :
+
+< strictement inférieur
+> strictement supérieur
+<= inférieur ou égal
+>= supérieur ou égal
+== égal
+!= différent
+<> différent, on utilisera de préférence !=
+X is Y : X et Y représentent le même objet.
+X is not Y : X et Y ne représentent pas le même objet
+X | Y : OU logique.
+X ^ Y : OU exclusif logique
+X & Y : ET logique.
+~ X : NON logique.
+X or Y : OU booléen.
+X and Y : ET booléen.
+not X : NON booléen.
+
+
+Une liste est une structure de données qui contient une série de valeurs. Python autorise la construction de liste contenant des valeurs de types différents (par exemple entier et chaîne de caractères), ce qui leur confère une grande flexibilité. Une liste est déclarée par une série de valeurs (n'oubliez pas les guillemets, simples ou doubles, s'il s'agit de chaînes de caractères) séparées par des virgules, et le tout encadré par des crochets.
+
+list.append(x)
+Ajoute un élément à la fin de la liste. Équivalent à a[len(a):] = [x].
+
+list.extend(iterable)
+Étend la liste en y ajoutant tous les éléments de l'itérable. Équivalent à a[len(a):] = iterable.
+
+list.insert(i, x)
+Insère un élément à la position indiquée. Le premier argument est la position de l'élément avant lequel l'insertion doit s'effectuer, donc a.insert(0, x) insère l'élément en tête de la liste et a.insert(len(a), x) est équivalent à a.append(x).
+
+list.remove(x)
+Supprime de la liste le premier élément dont la valeur est égale à x. Une exception ValueError est levée s'il n'existe aucun élément avec cette valeur.
+
+list.pop([i])
+Enlève de la liste l'élément situé à la position indiquée et le renvoie en valeur de retour. Si aucune position n'est spécifiée, a.pop() enlève et renvoie le dernier élément de la liste (les crochets autour du i dans la signature de la méthode indiquent que ce paramètre est facultatif et non que vous devez placer des crochets dans votre code ! Vous retrouverez cette notation fréquemment dans le Guide de Référence de la Bibliothèque Python).
+
+list.clear()
+Supprime tous les éléments de la liste. Équivalent à del a[:].
+
+list.index(x[, start[, end]])
+Renvoie la position du premier élément de la liste dont la valeur égale x (en commençant à compter les positions à partir de zéro). Une exception ValueError est levée si aucun élément n'est trouvé.
+
+Les arguments optionnels start et end sont interprétés de la même manière que dans la notation des tranches et sont utilisés pour limiter la recherche à une sous-séquence particulière. L'indice renvoyé est calculé relativement au début de la séquence complète et non relativement à start.
+
+list.count(x)
+Renvoie le nombre d'éléments ayant la valeur x dans la liste.
+
+list.sort(*, key=None, reverse=False)
+Ordonne les éléments dans la liste (les arguments peuvent personnaliser l'ordonnancement, voir sorted() pour leur explication).
+
+list.reverse()
+Inverse l'ordre des éléments dans la liste.
+
+list.copy()
+Renvoie une copie superficielle de la liste. Équivalent à a[:].
+
+
+Il est possible de parcourir les listes grace a leurs indices.
+
+L3es listes de comprehension sont des listes dont le contenu est défini par filtrage du contenu d'une autre liste selon un principe analogue à celui de la définition en compréhension de la théorie des ensembles.
+
+Un tuple est une liste qui ne peut plus être modifiée.

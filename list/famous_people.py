@@ -1,0 +1,10 @@
+list = ["zidane", "bertrand", "obama", "poutine"]
+print(list)
+del(list[0])
+print(list)
+list.remove("obama")
+print(list)
+list.pop(1)
+print(list)
+list.pop()
+print(list)

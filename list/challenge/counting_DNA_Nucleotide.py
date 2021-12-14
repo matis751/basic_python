@@ -1,0 +1,6 @@
+DNA=list(input())
+count_A = DNA.count("A")
+count_C = DNA.count("C")
+count_G = DNA.count("G")
+count_T = DNA.count("T")
+print(count_A, count_C, count_G, count_T)

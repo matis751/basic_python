@@ -1,0 +1,8 @@
+carrers = ["cooker", "prgrammer", "truck driver", "president", "infirmier", "pompier"]
+for n in carrers:
+	print("print the list in original orer :" + n)
+print("list in alphabetical order " + str(sorted(carrers)))
+for n in carrers:
+	print("print the list in original order " + n)
+for n in carrers:
+	print("print the list in reverse  order " + str(sorted(careers, reverse = True )))
